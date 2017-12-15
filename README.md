@@ -14,7 +14,7 @@ make -f Makefile
 Add mobix.nativeprotocol.dll to References
 
 ### Create class for proxying requests
-MyInterceptorProtocol not intended to have state. It methods could be invoked from different thread.
+MyInterceptorProtocol not intended to have state. It methods could be invoked from different threads.
 ```
 //MyInterceptorProtocol.cs
 using NativeProtocol;
